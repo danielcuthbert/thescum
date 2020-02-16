@@ -4,7 +4,7 @@ What started out as a simple way to show how to mass block the sun and all that 
 
 This is about the infrastructure these publications use to spread their hate. The Domain Name System (DNS) and complex Content Delivery Networks (CDNs) that host and serve. 
 
-![dailymail](/Users/daniel/Documents/Code/thescum/dailymail.png)
+![dailymail](img/dailymail.png)
 
 As time permits, I'll continue to map and explore their vast networks so you can use the info to block them as you see fit. 
 
