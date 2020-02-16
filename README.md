@@ -30,5 +30,6 @@ Under Microsoft Windows, follow this [guide](https://t.co/zawYoIxQKY?amp=1)
 
 Under Mac OS X, follow this [guide](https://www.hostinger.co.uk/tutorials/how-to-edit-hosts-file-macos) 
 
+### Advanced usage
 
-
+Sites like this need the support of the global ad and pervasive tracking network. In order to understand who support them, I've started to map who their partners are and this information can be found in the `$name_ips_expanded.csv` file. It's more of a work in progress. 
