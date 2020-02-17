@@ -8,9 +8,11 @@ This is about the infrastructure these publications use to spread their hate. Th
 
 As time permits, I'll continue to map and explore their vast networks so you can use the info to block them as you see fit. 
 
-### The King
+### Online presence
 
-This is how The Sun newspaper looks on the Internet. It should help you block them if you too feel like they offer no value to the world by spreading their hatred and bullying to those they do not like. 
+![thesun](img/thesun-web.jpg)
+
+This is how The Sun newspaper looks on the Internet. Too often, the main domain name isn't the only entity, todays websites consists of many different sub-domains. In order to not see the content they serve, you need to understand all the pieces that make up the puzzle. 
 
 ![The_Sun_Liverpool](img/The_Sun_Liverpool.jpg)
 
@@ -26,7 +28,7 @@ For more information as to why, [this](https://www.vice.com/en_uk/article/gyzmzb
 
 You can start by taking either the `$name__ips.csv` file and adding it to your hosts file on your computer. This will stop any access to any site the sun has. It's pretty simple to do. 
 
-Under Microsoft Windows, follow this [guide](https://t.co/zawYoIxQKY?amp=1)
+Under Microsoft Windows, follow this [guide](https://gist.github.com/zenorocha/18b10a14b2deb214dc4ce43a2d2e2992)
 
 Under Mac OS X, follow this [guide](https://www.hostinger.co.uk/tutorials/how-to-edit-hosts-file-macos) 
 
