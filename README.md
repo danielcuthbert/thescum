@@ -23,6 +23,7 @@ For more information as to why, [this](https://www.vice.com/en_uk/article/gyzmzb
 - The Sun https://thesun.co.uk
 - The Daily Mail https://dailymail.co.uk
 - The Daily Express https://dailyexpress.co.uk
+- The Telegraph https://telegraph.co.uk
 
 ### How do you use this information?
 
