@@ -35,15 +35,18 @@ Under Mac OS X, follow this [guide](https://www.hostinger.co.uk/tutorials/how-to
 
 ### Using these blocklists with [Pi Hole](https://pi-hole.net/)
 
-[Pi Hole](https://pi-hole.net/) is a network-wide Ad blocker for the [Raspberry Pi](https://www.raspberrypi.org/). You can use these lists with the Pi Hole quite easily, as follows:
+[Pi Hole](https://pi-hole.net/) is a network-wide Ad blocker for the [Raspberry Pi](https://www.raspberrypi.org/). You can use these lists with the Pi Hole quite easily.
 
-![Pi Hole Settings](img/pihole-bl-settings-blr.png)
+In your Pi Hole Admin Panel (http://yourpihole/admin) browse to Settings and then Blacklists (see below). Then in the text box which states "Enter One URL per line to add new blocklists" add your disired blocklists separated by a carrage return, before clicking the _Save and Update_ button. You will need to use the `$name__web.csv` files with Pi Hole. For example to block The Daily Express, The Daily Mail, The Telegraph and The Sun you would enter:
 
-In your Pi Hole Admin Panel (http://yourpihole/admin) browse to Settings and then Blacklists (see above). Then in the text box which states "Enter One URL per line to add new blocklists" add your disired blocklists separated by a carrage return, before clicking the _Save and Update_ button. You will need to use the `$name__web.csv` files with Pi Hole. For example to block The Daily Express, The Daily Mail, The Telegraph and The Sun you would enter:
 `https://raw.githubusercontent.com/danielcuthbert/thescum/master/dailyexpress_web.csv`
 `https://raw.githubusercontent.com/danielcuthbert/thescum/master/dailymail_web.csv`
 `https://raw.githubusercontent.com/danielcuthbert/thescum/master/telegraph_web.csv`
 `https://raw.githubusercontent.com/danielcuthbert/thescum/master/thesun_web.csv`
+
+This should result in the following appearing in your Pi Hile Blocklist settings:
+
+![Pi Hole Settings](img/pihole-bl-settings-blr.png)
 
 ### Advanced usage
 
