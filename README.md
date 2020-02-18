@@ -2,17 +2,17 @@
 
 What started out as a simple way to show how to mass block the sun and all that is evil about them, has quickly turned into a 'how do we block all who use the Internet to spread hatred and lies?'
 
-This is about the infrastructure these publications use to spread their hate. The Domain Name System (DNS) and complex Content Delivery Networks (CDNs) that host and serve. 
+This is about the infrastructure these publications use to spread their hate. The Domain Name System (DNS) and complex Content Delivery Networks (CDNs) that host and serve.
 
 ![dailymail](img/dailymail.png)
 
-As time permits, I'll continue to map and explore their vast networks so you can use the info to block them as you see fit. 
+As time permits, I'll continue to map and explore their vast networks so you can use the info to block them as you see fit.
 
 ### Online presence
 
 ![thesun](img/thesun-web.jpg)
 
-This is how The Sun newspaper looks on the Internet. Too often, the main domain name isn't the only entity, todays websites consists of many different sub-domains. In order to not see the content they serve, you need to understand all the pieces that make up the puzzle. 
+This is how The Sun newspaper looks on the Internet. Too often, the main domain name isn't the only entity, todays websites consists of many different sub-domains. In order to not see the content they serve, you need to understand all the pieces that make up the puzzle.
 
 ![The_Sun_Liverpool](img/The_Sun_Liverpool.jpg)
 
@@ -27,12 +27,35 @@ For more information as to why, [this](https://www.vice.com/en_uk/article/gyzmzb
 
 ### How do you use this information?
 
-You can start by taking either the `$name__ips.csv` file and adding it to your hosts file on your computer. This will stop any access to any site the sun has. It's pretty simple to do. 
+You can either import the CSV files into Pi-Hole, which is a great project to blackhole Internet advertisments, or you can manually edit your hosts file. This is simpler than you think, just follow these steps:
 
-Under Microsoft Windows, follow this [guide](https://gist.github.com/zenorocha/18b10a14b2deb214dc4ce43a2d2e2992)
+#### Microsoft Windows 10
 
-Under Mac OS X, follow this [guide](https://www.hostinger.co.uk/tutorials/how-to-edit-hosts-file-macos) 
+1. The file you want to download is `megahostsfile.txt`, so save this somewhere easily accessible
+
+2. Using the search function, search for Notepad.exe. On the right, you'll see 'Run As Administrator', click this
+
+   ![notepad1](img/notepad1.png)
+
+3. The hosts file is located at `C:\**Windows**\System32\drivers\etc\**hosts**`, in Notepad, go to file --> open and navigate to that location. It should look like this
+
+![hostsfile](img/hostsfile.png)
+
+4. Now go back to where you saved the `megahostsfile.txt` and double-click on it. It should open up in Notepad. Copy the entire file.
+
+5. In the other Notepad window, you want to paste the contents of `megahostsfile.txt` into it and save it.  
+
+What used to look like
+
+![thesunhomepage](img/thesunhomepage.png)
+
+Will now look like
+
+![thesunhomepagenomore](img/thesunhomepagenomore.png)
+
+
+Under Mac OS X, follow this [guide](https://www.hostinger.co.uk/tutorials/how-to-edit-hosts-file-macos)
 
 ### Advanced usage
 
-Sites like this need the support of the global ad and pervasive tracking network. In order to understand who support them, I've started to map who their partners are and this information can be found in the `$name_ips_expanded.csv` file. It's more of a work in progress. 
+Sites like this need the support of the global ad and pervasive tracking network. In order to understand who support them, I've started to map who their partners are and this information can be found in the `$name_ips_expanded.csv` file. It's more of a work in progress.
