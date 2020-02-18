@@ -56,6 +56,21 @@ Will now look like
 
 Under Mac OS X, follow this [guide](https://www.hostinger.co.uk/tutorials/how-to-edit-hosts-file-macos)
 
+### Using these blocklists with [Pi Hole](https://pi-hole.net/)
+
+[Pi Hole](https://pi-hole.net/) is a network-wide Ad blocker for the [Raspberry Pi](https://www.raspberrypi.org/). You can use these lists with the Pi Hole quite easily.
+
+In your Pi Hole Admin Panel (http://yourpihole/admin) browse to _Settings_ and then _Blocklists_ (see below). Then in the text box which states "_Enter One URL per line to add new blocklists_" add your disired blocklists, separated by a carrage return, before clicking the _Save and Update_ button. You will need to use the `$name__web.csv` files with Pi Hole. For example to block The Daily Express, The Daily Mail, The Telegraph and The Sun you would enter:
+
+`https://raw.githubusercontent.com/danielcuthbert/thescum/master/dailyexpress_web.csv`
+`https://raw.githubusercontent.com/danielcuthbert/thescum/master/dailymail_web.csv`
+`https://raw.githubusercontent.com/danielcuthbert/thescum/master/telegraph_web.csv`
+`https://raw.githubusercontent.com/danielcuthbert/thescum/master/thesun_web.csv`
+
+This should result in the blocklists now appearing in your Pi Hile Blocklist settings as follows:
+
+![Pi Hole Settings](img/pihole-bl-settings-blr.png)
+
 ### Advanced usage
 
 Sites like this need the support of the global ad and pervasive tracking network. In order to understand who support them, I've started to map who their partners are and this information can be found in the `$name_ips_expanded.csv` file. It's more of a work in progress.
