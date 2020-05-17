@@ -67,7 +67,7 @@ In your Pi Hole Admin Panel (http://yourpihole/admin) browse to _Settings_ and t
 `https://raw.githubusercontent.com/danielcuthbert/thescum/master/telegraph_web.csv`
 `https://raw.githubusercontent.com/danielcuthbert/thescum/master/thesun_web.csv`
 
-This should result in the blocklists now appearing in your Pi Hile Blocklist settings as follows:
+This should result in the blocklists now appearing in your Pi Hole Blocklist settings as follows:
 
 ![Pi Hole Settings](img/pihole-bl-settings-blr.png)
 
